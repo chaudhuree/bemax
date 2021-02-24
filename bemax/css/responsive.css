@@ -1,0 +1,156 @@
+/* Large desktop :1200px. */
+@media (min-width: 1200px) {}
+
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container {
+        width: 970px
+    }
+
+    .features-content p {
+        display: none;
+    }
+
+    .video > img {
+        width: 100%;
+    }
+}
+
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px
+    }
+
+    .features-content p {
+        display: none;
+    }
+
+    .feature-icon h3 {
+        display: block;
+        margin-left: 0;
+        margin-top: 23px;
+    }
+
+    .features-content {
+        text-align: center;
+        transform: translateY(50%);
+    }
+
+    .video > img {
+        width: 100%;
+    }
+
+    .video {
+        margin-bottom: 30px;
+    }
+
+    .blog-content .meta span {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .footer-none {
+        display: none;
+    }
+
+    .footer-col-4 {
+        width: 33.33%;
+    }
+
+}
+
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {
+        width: 300px
+    }
+
+    .mean-container .mean-bar {
+
+        background: #4272d7;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .col-8 {
+        width: 100%;
+
+    }
+
+    .col-4 {
+        width: 100%;
+
+    }
+
+    .cta-area .cta-button {
+        text-align: left;
+    }
+
+    .features-img > img {
+        width: 100%;
+    }
+
+    .features-content {
+        transform: translateY(73%);
+
+    }
+
+    .single-features {
+        margin-bottom: 20px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .video > img {
+        width: 100%;
+    }
+
+    .video {
+        margin-bottom: 30px;
+    }
+
+    .footer-sm-none {
+        display: none;
+    }
+
+    .footer-col-6 {
+        width: 50%;
+    }
+
+    .blog-img {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog-content {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+
+}
+
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
